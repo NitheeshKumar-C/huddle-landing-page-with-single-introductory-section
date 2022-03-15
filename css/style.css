@@ -17,7 +17,7 @@ main{
 .main-section{
     display: flex;
     align-items: center;
-    margin: 3% 5%;
+    margin: 3% 5% 0 5%;
 }
 .logo{
     margin: 0% 5%;
@@ -53,10 +53,11 @@ main{
     outline: none;
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     color: hsl(271, 78%, 34%);
     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.329);
     border: 2px solid hsl(271, 78%, 34%);
+    font-size: 1rem;
 }
 .attribution{
     text-align: center;
@@ -66,4 +67,33 @@ main{
 }
 .attribution a{
     color: rgb(251, 140, 255);
+}
+.sm{
+    margin: 0 5% 3% 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab{
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* active state */
+.right button:hover{
+    background-color: rgb(251, 140, 255);
+    color: white;
+}
+.fab:hover{
+    color: #ff52bf;
+    border: 1px solid #ff52bf;
 }
